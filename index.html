@@ -5,37 +5,43 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login</title>
+    <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <fieldset class="container">
-      <div class="logo">
-        <img src="" alt="logo do site" />
-      </div>
-      <div class="login">
-        <label for="login"><strong>Login</strong></label>
-        <input type="email" id="login" required minlength="15" />
-      </div>
-      <div class="password">
-        <label for="password"><strong>Senha</strong></label>
-        <input type="password" id="password required" />
-        <i class="icon-eye"></i>
-      </div>
-      <div>
-        <p>Esqueceu sua senha?</p>
-      </div>
-      <div class="button">
-        <button><strong>Login</strong></button>
-      </div>
-      <div>
-        <p>Ou</p>
-      </div>
-      <div class="social-media">
-        <a href="" target="_blank"><i class="google-icon"></i></a>
-        <a href="" target="_blank"><i class="facebook-icon"></i></a>
-      </div>
-      <div>
-        <p>Não tem login? <strong>Cadastre-se</strong></p>
-      </div>
-    </fieldset>
+    <form action="">
+      <fieldset class="container">
+        <div class="logo">
+          <img src="" alt="logo do site" />
+        </div>
+        <div class="data">
+          <div class="login">
+            <label for="login"><strong>Login</strong></label
+            ><br />
+            <input type="email" id="login" required minlength="15" size="38" placeholder="Insira seu e-mail"/>
+          </div>
+          <div class="password">
+            <label for="password"><strong>Senha</strong></label
+            ><br />
+            <input type="password" id="password required" size="38" placeholder="Insira sua senha"/>
+            <i class="icon-eye"></i>
+          </div>
+        <div class="forget-password">
+          <p>Esqueceu sua senha?</p>
+        </div>
+        <div class="button">
+          <button><strong>Login</strong></button>
+        </div>
+        <div>
+          <p style="text-align: center; margin: 1rem;">Ou</p>
+        </div>
+        <div class="social-media">
+          <a href="" target="_blank"><i class="google-icon"></i></a>
+          <a href="" target="_blank"><i class="facebook-icon"></i></a>
+        </div>
+        <div class="registration">
+          <p>Não tem login? <strong>Cadastre-se</strong></p>
+        </div>
+      </fieldset>
+    </form>
   </body>
 </html>
