@@ -14,6 +14,11 @@ body {
   align-items: center;
 }
 
+a {
+  text-decoration: none;
+  color: white;
+}
+
 .container {
   width: 350px;
   height: 550px;
@@ -22,10 +27,22 @@ body {
   justify-content: center;
   align-items: center;
   padding: 0.5rem;
+  position: relative;
 }
+
+/*
+fieldset {
+  border: none;
+} */
 
 .logo {
   margin-bottom: 3.125rem;
+}
+
+label {
+  position: relative;
+  bottom: 0.3rem;
+  margin-left: 0.3rem;
 }
 
 .login,
@@ -37,6 +54,13 @@ body {
   padding: 0.3rem;
 }
 
+.icon-eye {
+  color: black;
+  position: relative;
+  left: 16rem;
+  bottom: 1.4rem;
+}
+
 input {
   border-radius: 0.6rem;
   padding: 0.4rem;
@@ -44,7 +68,7 @@ input {
 
 .forget-password {
   text-align: end;
-  margin-right: 0.8rem;
+  margin-right: 1rem;
   font-size: small;
 }
 
@@ -58,4 +82,20 @@ button {
   border-style: solid;
   padding: 1rem;
   cursor: pointer;
+}
+
+.social-media {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.registration {
+  position: absolute;
+  width: 13rem;
+  height: 1.1rem;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 29rem;
+  margin: auto;
 }
