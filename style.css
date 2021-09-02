@@ -57,8 +57,12 @@ label {
 .icon-eye {
   color: black;
   position: relative;
-  left: 16rem;
-  bottom: 1.4rem;
+  left: 17rem;
+  bottom: 1.8rem;
+}
+
+.icon-eye img {
+  width: 30px;
 }
 
 input {
@@ -98,4 +102,19 @@ button {
   left: 0;
   top: 29rem;
   margin: auto;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.google-icon img {
+  width: 30px;
+  height: 30px;
+}
+
+.facebook-icon img {
+  width: 35px;
+  height: 35px;
 }
