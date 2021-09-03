@@ -18,40 +18,51 @@ a {
 .container {
   width: 350px;
   height: 550px;
-  margin: 6rem auto;
+  margin: 100px auto;
   padding: 0.5rem;
   position: relative;
 }
 
-/*
 fieldset {
   border: none;
-} */
+}
 
 .logo {
-  margin-bottom: 3.125rem;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.logo svg {
+  position: absolute;
+  top: -30px;
 }
 
 label {
   position: relative;
-  bottom: 0.3rem;
-  margin-left: 0.3rem;
+  bottom: 5px;
+  margin-left: 5px;
 }
 
 .login,
 .password {
-  padding: 0.8rem;
+  padding: 12px;
+}
+
+.password {
+  height: 80px;
 }
 
 .data {
-  padding: 0.3rem;
+  padding: 5px;
 }
 
 .icon-eye {
   color: black;
   position: relative;
-  left: 17rem;
-  bottom: 1.8rem;
+  left: 272px;
+  bottom: 31px;
 }
 
 .icon-eye img {
@@ -59,42 +70,59 @@ label {
 }
 
 input {
-  border-radius: 0.6rem;
-  padding: 0.4rem;
+  border-radius: 10px;
+  padding: 7px;
 }
 
 .forget-password {
   text-align: end;
-  margin-right: 1rem;
+  margin-right: 16px;
   font-size: small;
+  color: rgb(196, 186, 186);
 }
 
-button {
+.button-login button {
   width: 100%;
-  background: rgb(0, 194, 120);
+  background: #00c278;
   border-color: rgb(0, 194, 120);
-  margin: 1rem 0;
+  margin: 30px 0;
+  margin-bottom: 16px;
   border-width: 2px;
   border-radius: 20px;
   border-style: solid;
-  padding: 1rem;
+  padding: 16px;
   cursor: pointer;
 }
 
 .social-media {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: center;
+}
+
+.google-icon {
+  margin-right: 30px;
 }
 
 .registration {
+  width: 210px;
+  height: 18px;
+  display: flex;
+  justify-content: center;
   position: absolute;
-  width: 13rem;
-  height: 1.1rem;
   bottom: 0;
   right: 0;
   left: 0;
-  top: 29rem;
+  top: 460px;
   margin: auto;
+}
+
+.registration a p {
+  font-size: 14px;
+}
+
+.registration a p span {
+  font-weight: bold;
+  color: #00c278;
 }
 
 .social-media {
