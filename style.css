@@ -46,6 +46,11 @@ label {
   margin-left: 5px;
 }
 
+input {
+  font-family: 'Nunito', sans-serif;
+  padding: 7px;
+}
+
 .login,
 .password {
   padding: 12px;
@@ -67,13 +72,7 @@ label {
 }
 
 .icon-eye img {
-  width: 30px;
-}
-
-input {
-  border-radius: 10px;
-  padding: 7px;
-  font-family: 'Nunito', sans-serif;
+  width: 27px;
 }
 
 .forget-password {
