@@ -55,6 +55,18 @@ input {
   border-bottom: 0.1px solid #7f7c8e;
 }
 
+input[value] {
+  color: white;
+}
+
+input:focus {
+  background: white;
+  border: solid;
+  border-radius: 15px;
+  color: black;
+  transition: 0.25s ease-in-out;
+}
+
 .login,
 .password {
   padding: 12px;
@@ -142,5 +154,5 @@ input {
 
 .facebook-icon img {
   width: 30px;
-  height: 30px;
+  height: 28px;
 }
